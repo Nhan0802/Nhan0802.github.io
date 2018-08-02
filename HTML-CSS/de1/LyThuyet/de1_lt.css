@@ -1,0 +1,70 @@
+.framework {
+	font-family: Georgia, Time New Roman, Times, serif;
+	width: 500px;
+	border: solid 1px #0033FF;
+	padding: 0px 5px 0px 5px;
+}
+.pro_1 {
+	font-size: 20px;
+	font-weight: bold;
+	height: 25px;
+	background-image: url("img/title.gif");
+	margin: 0;
+}
+.pro_2 {
+	height: 100px;
+	border: none;
+}
+#img_1 {
+	float: left;
+}
+.pro_3 {
+	height: 100px;
+	margin-top: 0;
+	overflow: scroll;
+}
+.fac_1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.fat_2 {
+	margin-top: 0;
+	list-style-image: url("start.git");
+}
+.com_1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #ECECEC;
+}
+.com_2 {
+	margin-top: 0;
+	margin-left: 20px;
+}
+a {
+	text-decoration:none;
+}
+#img_2 {
+	margin-top: 0;
+	width: 25px;
+	height: 20px;
+}
+.cfor_1 {
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0;
+}
+.cfor_2 {
+	float: left;
+	clear: left;
+	width: 120px;
+}
+.cfor_3 {
+	height: 40px;
+	padding-top: 30px;
+}
+.textarea {
+	width: 73%;
+	height: 80px;
+	text-align: left;
+}

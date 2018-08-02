@@ -1,0 +1,143 @@
+.framework {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 300px;
+	background-color: #e6f3fb;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.framework_1 {
+	width: 94%;
+	margin: auto;
+}
+
+.blogroll_1 {
+	border-top: solid 3px #ffa500;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+.blogroll_1 p {
+	margin-right: 10px;
+	float: right;
+	width: 40%;
+}
+h1 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+}
+#img_1 {
+	width: 50%;
+	float: left;
+	border: solid;
+	margin: 8px 10px 0 1px;
+	border-color:  #cccccc;
+	border-width: 1px;
+}
+.blo_1 {
+	font-size: 12px;
+	color: #0a6395;
+	font-weight: bold;
+}
+.blo_2 {
+	font-style: italic;
+}
+.blo_3 {
+	margin-left: 10px;
+}
+.blogroll_2 {
+	clear: both;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+a {
+	color: #0a6395;
+	text-decoration: none;
+}
+li {
+	background-color: #faf0bf;
+	border-bottom: solid;
+	border-bottom-color: #FFFFFF; 
+	border-width: 2px;
+	padding: 5px;
+}
+a {
+	color: #0a6395;
+	text-decoration: solid;
+}
+
+#img_2 {
+	width: 27%;
+	float: left;
+	margin: 8px 5px 0 5px;
+	border-color:  #cccccc;
+	border-width: 1px;
+}
+.horoscopes_1 {
+	border-top: solid 3px #ffa500;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+.horoscopes_1 p{
+	margin-right: 10px;
+	width: 65%;
+	float: right;
+}
+.hor_1 {
+	color: black;
+}
+.date {
+	color:  #808080;
+}
+.horoscopes a {
+	text-decoration: underline;
+}
+.horoscopes_2 {
+	clear: both;
+	background-color: #f4f4ec;
+	overflow: auto;
+	padding-left: 20px;
+}
+.horoscopes_2 p {
+	float: left;;
+}
+.hor_2 {
+	font-family: "sans-serif";
+	font-size: 12px;
+}
+#img_3 {
+	float: right;
+}
+
+.get_news_1 {
+	border-top: solid 3px #ffa500;
+	background-color: white;
+	overflow: auto;
+}
+.get_news p {
+	margin: 20px;
+	width: 45%;
+	float: left;
+}
+#img_4 {
+	width: 40%;
+	height: 50%;
+	float: right;
+}
+.get_news {
+	padding-bottom: 10px;
+	border-bottom: solid 1px  #cccccc;
+}
+
+.competitions {
+	padding-top: 5px;
+}
+.competitions_1 {
+	border: solid 1px  #dadada;
+	background-color: white;
+	padding: 10px 0 10px 10px;
+}
