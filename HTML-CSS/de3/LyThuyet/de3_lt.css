@@ -1,0 +1,114 @@
+﻿body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.6875em;
+	color: #595959;
+	background-color: #121214;
+}
+
+.container {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+h1, a {
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.box2_1 a, .box2_2 a {
+	font-size: 10px;
+	color: #595959;
+}
+
+.column1 {
+	width: 470px;
+	float: left;
+}
+
+.column1 p {
+	margin-bottom: 30px;
+}
+
+#img_1 {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+.column1_1 p:nth-of-type(3) {
+	clear: both;
+}
+
+.box1 p:last-child {
+	clear: both;
+	border-top: dotted 1px;
+	padding-top: 10px;
+}
+
+
+.box2 {
+	margin-top: 60px;
+	overflow: auto;
+}
+
+.box2_1, .box2_2 {
+	float: left;
+}
+
+ul, li {
+	margin-left: 5px;
+	padding-left: 0;
+	margin-bottom: 10px;
+}
+
+.box2_2 ul, .box2_2 li {
+	margin-left: 10px;
+}
+
+ul {
+	list-style-image: url("../img/arr.gif");
+}
+
+.box2 p:last-child {
+	clear: both;
+	border-top: dotted 1px;
+	padding-top: 10px;
+}
+
+.column2 {
+	float: left;
+	background-color: #232326;
+	margin-left: 30px;
+	width: 250px;
+	height: 400px;
+}
+
+.box3 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.column2_1 {
+	width: 200px;
+	margin: auto;
+	border-top: solid 1px #595959;
+	margin-top: 80px;
+}
+
+.column2 p img {
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
