@@ -68,7 +68,7 @@ ul, li {
 }
 
 ul {
-	list-style-image: url("../img/arr.gif");
+	list-style-image: url("image/arr.gif");
 }
 
 .box2 p:last-child {
