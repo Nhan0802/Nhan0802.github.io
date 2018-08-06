@@ -27,12 +27,11 @@ h1 {
 	margin: 0;
 }
 #img_1 {
-	width: 50%;
+	
+	width: 55%;
 	float: left;
-	border: solid;
-	margin: 8px 10px 0 1px;
+	margin: 6px 0 0 1px;
 	border-color:  #cccccc;
-	border-width: 1px;
 }
 .blo_1 {
 	font-size: 12px;
@@ -101,6 +100,7 @@ a {
 	background-color: #f4f4ec;
 	overflow: auto;
 	padding-left: 20px;
+	height: 55px;
 }
 .horoscopes_2 p {
 	float: left;;
@@ -111,6 +111,7 @@ a {
 }
 #img_3 {
 	float: right;
+	height: 55px;
 }
 
 .get_news_1 {
