@@ -11,27 +11,30 @@
 	margin: auto;
 }
 
-.blogroll_1 {
-	border-top: solid 3px #ffa500;
-	background-color: #FFFFFF;
-	overflow: auto;
-}
-.blogroll_1 p {
-	margin-right: 10px;
-	float: right;
-	width: 40%;
-}
+
 h1 {
 	font-size: 12px;
 	font-weight: bold;
 	margin: 0;
 }
+.blogroll { background-color: white; }
+.blogroll_1 {
+	border-top: solid 3px #ffa500;
+	background-color: #FFFFFF;
+}
 #img_1 {
 	
 	width: 55%;
 	float: left;
-	margin: 6px 0 0 1px;
+	margin: 6px 0 0 5px;
 	border-color:  #cccccc;
+}
+.blogroll_1 p {;
+	float: left;
+	width: 35%;
+}
+.blogroll_2 {
+	clear: both;
 }
 .blo_1 {
 	font-size: 12px;
@@ -43,9 +46,6 @@ h1 {
 }
 .blo_3 {
 	margin-left: 10px;
-}
-.blogroll_2 {
-	clear: both;
 }
 ul {
 	list-style-type: none;
@@ -59,10 +59,10 @@ a {
 }
 li {
 	background-color: #faf0bf;
-	border-bottom: solid;
-	border-bottom-color: #FFFFFF; 
-	border-width: 2px;
-	padding: 5px;
+	margin-bottom: 1px;
+	padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
 }
 a {
 	color: #0a6395;
@@ -114,27 +114,34 @@ a {
 	height: 55px;
 }
 
-.get_news_1 {
-	border-top: solid 3px #ffa500;
-	background-color: white;
-	overflow: auto;
-}
-.get_news p {
-	margin: 20px;
-	width: 45%;
-	float: left;
-}
-#img_4 {
-	width: 40%;
-	height: 50%;
-	float: right;
-}
+
 .get_news {
+  clear: both;
+  height: 110px;
 	padding-bottom: 10px;
 	border-bottom: solid 1px  #cccccc;
 }
+.get_news_1 {
+  
+  height: 110px;
+	border-top: solid 3px #ffa500;
+  background-color: white;
+}
+.get_news_1 p {
+	margin: 20px;
+	width: 45%;
+	float: left;
+
+}
+#img_4 {
+	width: 40%;
+	height: 110px;
+	float: left;
+}
+
 
 .competitions {
+  clear: both;
 	padding-top: 5px;
 }
 .competitions_1 {
