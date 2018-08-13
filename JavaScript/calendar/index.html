@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-vn">
+
+<head>
+  <title>Calendar</title>
+  <meta charset="UTF-8">
+  <link href="css/calendar.css" type="text/css" rel="stylesheet">
+  <script src="js/calendar.js"></script>
+</head>
+
+<body>
+  <div class="container">	
+  
+  <div id="input-field">
+    <input id="date" type="text" name="date">
+    <img id="calendar-img" src="img/calendar.png" alt="calendar" width="20">
+  </div>
+  <div id="calendar" style="display: none;">
+    <table id="tb-calendar">
+      <tr>
+        <td><img id="pre-year" src="img/arrow_full_left.png" alt="" width="30"></td>
+        <td><img id="pre-month" src="img/Arrow_Back.png" alt="" width="20"></td>
+        <td colspan="2">
+          <select name="month" id="select-month">
+            <option value="0">January</option>
+            <option value="1">Febrary</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+          </select>
+        </td>
+        <td><select name="year" id="select-year"></select></td>
+        <td><img id="next-month" src="img/Arrow_Forward.png" alt="" width="20"/></td>
+        <td><img id="next-year" src="img/arrow_full_right.png" alt="" width="30"/></td>
+      </tr>
+      <tr>
+        <td>SUN</td>
+        <td>MON</td>
+        <td>TUE</td>
+        <td>WED</td>
+        <td>THU</td>
+        <td>FRI</td>
+        <td>SAT</td>
+      </tr>
+    </table>
+  </div> 
+  </div>
+</body>
+
+</html>
