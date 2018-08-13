@@ -1,0 +1,173 @@
+﻿.container {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #121214;
+	color: #595959;
+	font-size: 0.7em;
+	min-width: 800px;
+}
+
+
+
+.header a, .section a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.header {
+	height: 349px;
+	background-image: url("../img/fill_header.jpg");
+}
+.header .container_1 p {
+	display: inline;
+}
+.container_1 {
+	display: flex;
+	width: 353px;
+	height: 116px;
+	background-image: url("../img/logo.jpg");
+	position: relative;
+	top: 53px;
+	left: 40px;
+	font-size: 350%;
+	font-weight: bold;
+	color: black;
+	justify-content: flex-end;
+	align-items: center;
+}
+.container_1 img {
+	width: 5px;
+	height: 5px;
+}
+.container_1 .flex_items {
+	width: 250px;
+}
+
+.nav ul {
+	display: flex;
+	margin-top: 70px;
+}
+.nav li {
+	display: inline;
+	margin: 5px;
+	text-align: center;
+}
+.header a {
+	font-size: 200%;
+}
+.nav li p {
+	margin-top: 0;
+}
+
+
+.container_2 {
+	display: flex;
+}
+
+
+
+.aside {
+	width: 250px;
+	height: 350px;
+	background-color: #232326;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	margin-left: 55px;
+}
+.aside_1, .aside_2 {
+	width: 200px;
+	padding-top: 10px;
+}
+.aside .aside_1 p {
+	width: 195px;
+}
+.aside_1 {
+	border-top: solid 1px #797979;
+	font-size: 120%;
+	display: flex;
+	justify-content: space-around
+}
+.aside_2 {
+	border-top: dotted 1px #595959;
+	padding-left: 20px;
+}
+.aside ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-image: url("../img/arr.gif");
+	list-style-position: inside;
+}
+.aside li {
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+.aside a {
+	color: #797979;
+}
+
+
+
+.section {
+	width: 400px;
+	margin-left: 30px;
+	padding-top: 30px;
+}
+.link_web {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.article {
+	margin-bottom: 50px;
+}
+.link, .article input, .article p {
+	margin-left: 20px;
+}
+.article p {
+	width: 350px;
+}
+#link {
+	border-top: dotted 1px #595959;
+	padding-top: 10px;
+}
+input {
+	background-color: #232326;
+	border: none;
+}
+input:hover {
+	background-color: #433336;
+}
+input:focus {
+	color: white;
+}
+
+
+
+.footer {
+	margin-left: 55px;
+	border-top: dotted 1px #595959;
+	margin-top: 50px;
+	text-transform: uppercase;
+	height: 100px;
+	width: 680px;
+}
+.footer a {
+	color: #595959;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
